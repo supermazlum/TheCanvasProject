@@ -1,0 +1,195 @@
+/*==========================
+        GENERALS
+===========================*/
+/*
+#202124 
+#4a4a4a
+#f7f7f7
+#fff */
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+
+/*==========================
+============================
+        HEADER
+============================
+===========================*/
+
+header{
+    background-image: url("../img/titel-bild.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80vw;
+    margin: auto;
+    margin-top: 65px;
+    padding: 14vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header a img {
+    width: 3.3vw;
+    height: 1.5vw;
+}
+
+header a {
+    display: flex;
+    align-self: center;
+}
+
+header h1{
+    color: #fff;
+    font-family: OpenSans;
+    font-weight: 400;
+    margin-top: 55px;
+}
+
+
+/*==========================
+============================
+        MAIN
+============================
+===========================*/
+
+
+/*==========================
+        main #greatideas, #artist
+===========================*/
+
+main #greatideas article,
+main #artist article {
+    background-color: #f7f7f7;
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+    font-family: Roboto;
+    padding: 18vh 19vw;
+}
+
+main #artist article {
+    padding: 4.5vh 19vw;
+}
+
+main #greatideas h2,
+main #artist h2 {
+    font-size: 1.8rem;
+    font-family: OpenSans;
+    font-weight: 550;
+}
+
+main #greatideas p:nth-of-type(1),
+main #artist p {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+main #greatideas article p a {
+    text-decoration: none;
+    color: blue;
+}
+
+main #greatideas div{
+    background-color: #f7f7f7;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #greatideas div img{
+    width: 34vw;
+    padding-bottom: 40px;
+}
+
+main #greatideas div img:nth-of-type(1) {
+    margin-left: 52px;
+}
+
+main #greatideas div img:nth-of-type(2) {
+    margin-right: 52px;
+}
+
+main section p{
+    color: #4a4a4a
+}
+
+/*==========================
+        #main artist images
+===========================*/
+
+main #artist div{
+    background-color: #f7f7f7;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.4vw;
+    padding-bottom: 8.5vh;
+}
+
+main #artist div img{
+    width: 45%;
+}
+
+/*==========================
+        main #collaborate
+===========================*/
+
+main #collaborate h3 {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 2rem;
+    color: #4a4a4a;
+    margin:12vh 30vw;
+}
+
+
+/*==========================
+        #collaborate
+===========================*/
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 77vw;
+    margin: auto;
+    margin-bottom: 3.6vh;
+}
+
+footer div h4 {
+    font-family: Roboto;
+    font-size: 0.8rem;
+    color: #4a4a4a;
+}
+
+footer div img {
+    width: 57%;
+}
+
+footer div #broughttoyou {
+}
+
+footer div #artgoogle {
+    margin: ;
+}
